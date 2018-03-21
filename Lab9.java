@@ -12,7 +12,7 @@ public class Lab9{
     
     Scanner input = new Scanner(System.in); 
     
-    int number = 0;
+    int number = 0; 
     
     System.out.println("Type in a number that is between 0 - 10000 ");
     
