@@ -3,6 +3,8 @@
   Co Sci 290 
   Mid Term part 2 
   Modify your last lab to prompt the user to enter a FIVE-digit integer instead and determines whether it is a palindrome number. 
+  
+  Professor Tuy helped me with correcting the code. 
 */
 
 
@@ -11,32 +13,38 @@ public class MidTerm{
 
 public static void main(String[] args){
   
-int a = 0, b = 0, c = 0, d = 0, e = 0;
+int last = 0, secondLast = 0, thirdlast = 0, middle = 0, third = 0, second = 0, first = 0;
 
-System.out.println("Give me 5 numbers:");
+System.out.println("Give me 7 numbers:");
     
 Scanner input = new Scanner(System.in);
   
 int num = input.nextInt();
   
-a = num % 10;
+last = num % 10;
 num /= 10;
                    
-b = num % 10;
+secondLast = num % 10;
 num /= 10;
   
-c = num % 10; 
+thirdlast = num % 10; 
   num /= 10;
 
-d = num % 10; 
+middle = num % 10; 
+  num /= 10;
+  
+third = num % 10; 
   num /= 10;
 
-e = num % 10;
-  num /= 10; 
+second = num % 10;
+  num /= 10;
   
-System.out.println(""+ a + b + c + d + e);
+first = num % 10;
+  num /= 10;
   
- int r,sum=0,temp;    
+System.out.println(""+ last + secondLast + thirdlast + middle + third + second + first);
+  
+ /*int r,sum=0,temp;    
   int n=454;
   
   temp=n;    
@@ -45,10 +53,14 @@ System.out.println(""+ a + b + c + d + e);
    sum=(sum*10)+r;    
    n=n/10;    
   }    
-  if(temp==sum)    
+  */
+  
+  
+  if(first==last && second == secondLast && third == thirdLast)    
    System.out.println("palindrome number ");    
   else    
    System.out.println("not palindrome");    
+   
 }  
 }   
 
