@@ -23,31 +23,7 @@ public class Lab6{
     //instantiate the Scanner object for usage, call it input
   Scanner input = new Scanner(System.in);
       
-    //declare a variable that is type int and call this variable num
-  int num;
-    
-    //declare a variable that is type int and call this variable sum
-  int sum;
-    
-    //prompt the user with this message "Please enter in a whole number."
-  System.out.println("Please enter a whole number..." );
-      
-    /*
-      using Scanner, which is called input, get the int from user input, 
-      then assign it to the num variable
-    */
-  num = input.nextInt();
-  sum = num + 5;  
-    
-    //add num to 5 and assign this to sum
-  System.out.println("Sum: " + sum);
-    
-        
-      //prompt the user with the sum
-    System.out.println("The sum of " + num + " and 5 is " + sum);
-    
-    
-    
+
   }
   
 }

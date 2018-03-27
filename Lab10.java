@@ -19,7 +19,7 @@ public class Lab10{
 	  int Mola3 = input.nextInt();
   
 	  int temp;
-	  if (Mola1 > Mola2 || Mola3 > Mola1)
+	  if (Mola2 > Mola1 || Mola1 > Mola3)
 	  {
 	    if (Mola2 < Mola1);
 	    {
