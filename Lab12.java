@@ -25,7 +25,7 @@ Co Sci 290
 	 class name starts with a capital
 	 comments that explains the logic
 */
-import java.util.Scanner; 
+import java.util.Scanner; // import scanner
 public class Lab12{ //this is the name of the file. 
 
 	public static void main(String args[]){ //insert of main method
@@ -38,12 +38,13 @@ public class Lab12{ //this is the name of the file.
 			+  "is even or odd..."); 
 		
 		System.out.println("Please enter in a whole number...");
-		
-		num = input.nextDouble(); //Doubles the inputted num
+		//Doubles the inputted num
+		num = input.nextDouble(); 
+		//divides the num by 2 and if it's 0 it becomes an even num 
 		if(num % 2 == 0){
 			System.out.println("The number " + num  + " is even...");
 										}
-		
+		//every number that doesnt equal 0 remainder is odd 
 		else{
 			System.out.println("The number " + num  + " is odd...");
 				}
