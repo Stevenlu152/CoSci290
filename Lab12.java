@@ -26,9 +26,11 @@ Co Sci 290
 	 comments that explains the logic
 */
 import java.util.Scanner; // import scanner
-public class Lab12{ //this is the name of the file. 
+public class Lab12
+{ //this is the name of the file. 
 
-	public static void main(String args[]){ //insert of main method
+	public static void main(String args[])
+	{ //insert of main method
 
 		Scanner input = new Scanner(System.in); //input Scanner
 		Double num; //intalizing int
@@ -41,12 +43,14 @@ public class Lab12{ //this is the name of the file.
 		//Doubles the inputted num
 		num = input.nextDouble(); 
 		//divides the num by 2 and if it's 0 it becomes an even num 
-		if(num % 2 == 0){
+		if(num % 2 == 0)
+		{
 			System.out.println("The number " + num  + " is even...");
-										}
-		//every number that doesnt equal 0 remainder is odd 
-		else{
-			System.out.println("The number " + num  + " is odd...");
-				}
 		}
+		//every number that doesnt equal 0 remainder is odd 
+		else
+			{
+			System.out.println("The number " + num  + " is odd...");
+			}
 	}
+}
