@@ -33,17 +33,19 @@ public class Lab12{ //this is the name of the file.
 		Scanner input = new Scanner(System.in); //input Scanner
 		Double num; //intalizing int
 
+		//statement to address or let the programmer runner know what the program does
 		System.out.println("This program will check if a number"
-			+  "is even or odd..."); //statement to address or let the programmer runner know what the program does
+			+  "is even or odd..."); 
+		
 		System.out.println("Please enter in a whole number...");
 		
 		num = input.nextDouble(); //Doubles the inputted num
 		if(num % 2 == 0){
 			System.out.println("The number " + num  + " is even...");
-		}
+										}
 		
 		else{
 			System.out.println("The number " + num  + " is odd...");
+				}
 		}
-	}
 	}
