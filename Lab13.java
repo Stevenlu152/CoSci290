@@ -19,12 +19,19 @@ public class Lab13
     int a = 1;
     int b = 3;
     int c = 0;
+    int d = -5;
     
     System.out.println("Operation on a = " +  a + " and B = " + b + " : ");
     System.out.println("addition = " + add(a, b)); 
     System.out.println("Subtraction = " + subtract(a, b));
     System.out.println("Multiply = " + multiply(a,b));
     System.out.println("Divide = " + divide(a,b));
+    
+    System.out.println("Operation on c = " +  c + " and d = " + d + " : ");
+    System.out.println("addition = " + add(c, d)); 
+    System.out.println("Subtraction = " + subtract(c, d));
+    System.out.println("Multiply = " + multiply(c,d));
+    System.out.println("Divide = " + divide(c,d));
     
   } //end of main methods
 
@@ -55,22 +62,26 @@ public class Lab13
       //return difference of num1 and num2
       return difference; 
     }
+  //custom method 
   public static int multiply(int num1, int num2)
   {
+     //instalizing or delcaring varibles
     int Zeno = 0;
     
+    //multiply num1 and num2 to get Sum
     Zeno = num1 * num2;
-      
+      //return Sum of num1 and num2 
       return Zeno;
     
   }
-  
+  //custom method 
   public static int divide(int num1, int num2)
   {
+    //instalizing or delcaring varibles
     int Zero = 0; 
-    
+    //divide num1 and num2 
     Zero = num1/num2;
-    
+     //return Sum of num1 and num2 
     return Zero;
   }
    
