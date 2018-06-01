@@ -32,25 +32,25 @@ public class Lab12
 	public static void main(String args[])
 	{ //insert of main method
 
-		Scanner input = new Scanner(System.in); //input Scanner
-		Double num; //intalizing int
+	  Scanner input = new Scanner(System.in); //input Scanner
+	  Double num; //intalizing int
 
-		//statement to address or let the programmer runner know what the program does
-		System.out.println("This program will check if a number"
-			+  "is even or odd..."); 
-		
-		System.out.println("Please enter in a whole number...");
-		//Doubles the inputted num
-		num = input.nextDouble(); 
-		//divides the num by 2 and if it's 0 it becomes an even num 
-		if(num % 2 == 0)
-		{
-			System.out.println("The number " + num  + " is even...");
-		}
-		//every number that doesnt equal 0 remainder is odd 
-		else
-			{
-			System.out.println("The number " + num  + " is odd...");
-			}
+	  //statement to address or let the programmer runner know what the program does
+	  System.out.println("This program will check if a number"
+	    +  "is even or odd..."); 
+	  
+	  System.out.println("Please enter in a whole number...");
+	  //Doubles the inputted num
+	  num = input.nextDouble(); 
+	  //divides the num by 2 and if it's 0 it becomes an even num 
+	  if(num % 2 == 0)
+	  {
+    	System.out.println("The number " + num  + " is even...");
+    }
+	  //every number that doesnt equal 0 remainder is odd 
+	  else
+	    {
+	    System.out.println("The number " + num  + " is odd...");
+	    }
 	}
 }

@@ -88,3 +88,25 @@ public class Lab13
   
  
 }//end of class
+
+
+// tea party codes 
+// public int teaParty(int tea, int candy) {
+//  if(tea<5 || candy<5)
+//  return 0;
+//  if(tea>=candy*2 || candy>=tea*2)
+// return 2;
+//  if(tea>=5 && candy>=5)
+//  return 1;
+//  else
+//  return 0;
+
+//public boolean answerCell(boolean isMorning, boolean isMom, boolean isAsleep) {
+  //if(isAsleep == true)
+  //return false;
+  //if(isMorning == true && isMom == true)
+  //return true; 
+  //if(isMorning == false || isMom == true)
+  //return true;
+  //else
+  //return false; 
