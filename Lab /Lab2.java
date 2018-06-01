@@ -10,10 +10,9 @@ public class Lab2{
   public static void main(String[] args){
     
     Scanner input = new Scanner(System.in);
-     int survivor = 0;
-     int survivors = 0;
     
-    
+    int living = 0; 
+    int lived = 0;
         System.out.print("oOoOOoOOo  o                o          `O     o      o \n"
                     + "     o     O                 O           o o  O      O  \n"
                     + "     o     o                 o           O    o      o  \n"
@@ -32,16 +31,28 @@ public class Lab2{
 + "o        O  O   o   o   O OooO'       O          o     O   o  `Ooo. o   o \n"
 + "O        o  o   O   O   o O           `o     .o  O     o   O      O o   O \n"
 + "o'       Oo `OoO'o  o   O `OoO'        `OoooO'   o     `OoO'o `OoO' O   o \n");
-    
-    System.out.println("HEY ARE YOU OKAY?!");
       
-      survivor = input.nextInt();
     
-    System.out.println("OH OKAY!!");
+    System.out.println("HEY, HOW MANY DO YOU THINK SURVIVED");
+      
+    living = input.nextInt();
     
-      survivors = input.nextInt();
+    System.out.println("HOW MANY FINGERS AM I HOLDING UP");
     
-    System.out.println("IM COMING TO HELP YOU ANYWAY!");
+    living = input.nextInt();
+    
+    System.out.println("WRONG MY HANDS ARE GONE.....");
+    System.out.println("My fingers....how many do I see?");
+    
+    lived = input.nextInt();
+    
+    System.out.println("This is bad...I think its infected...what number should I call?");
+    
+    lived = input.nextInt();
+    
+    System.out.println("yeah, perhaps i should try to call for help but i doubt there will be signal.");
+    
+      
   
   
   }
